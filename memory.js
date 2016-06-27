@@ -6,7 +6,11 @@ var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "king";
 
-if(cardOne == cardThree) {
-   alert("You found a match!.")
-
+if(cardOne == cardThree || cardOne == cardFour) {
+   alert("You found a match!.");
 }
+else if(cardTwo == cardFour || cardTwo == cardThred) {
+   alert("You found a match!");
+}
+else
+
